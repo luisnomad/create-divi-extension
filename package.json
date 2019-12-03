@@ -1,7 +1,7 @@
 {
   "name": "create-divi-extension",
   "version": "1.0.2",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
