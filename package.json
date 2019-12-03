@@ -11,7 +11,7 @@
     "create-react-app": "node tasks/cra.js",
     "e2e": "tasks/e2e-simple.sh",
     "e2e:docker": "tasks/local-test.sh",
-    "postinstall": "cd packages/divi-error-overlay/ && yarn build:prod",
+    "postinstall": "cd packages/divi-error-overlay/ && npm install && yarn build:prod",
     "publish": "tasks/publish.sh",
     "start": "cd packages/divi-scripts && node bin/divi-scripts.js start",
     "screencast": "node ./tasks/screencast.js",
